@@ -27,7 +27,7 @@ tr:nth-child(even) {
     <header>
         <a href="home.html"><img src="img/home_page.jpg" alt="Хом Пейдж Кнопка"></a>
         <h1 align="center" style="background: grey; color: white;">ДОБРО ПОЖАЛОВАТЬ В СИБИРЬ!</h1>
-        <p>АУЕ дорогой строитель магистрали!</p>
+        <p>Приветствуем, дорогой строитель магистрали!</p>
     </header> 
     <section>
         <table>
@@ -56,17 +56,34 @@ tr:nth-child(even) {
                 <td>Строитель Магистрали</td>
             </tr>
         </table>
-      <form>
-      <label> Выьери себе грех:
-    <input type="radio" name="sinn" value="Подглядывал в Чужой Код">Подглядывал в Чужой Код<br/>
+        </section>
+        <section>
+      <form style="padding: 15px;">
+    Найди свой грех: <br/>
+    <input type="radio" name="sinn" value="Подглядывал в Чужой Код" checked>Подглядывал в Чужой Код<br/>
     <input type="radio" name="sinn" value="Копипастил Стили с Сайтов">Копипастил Стили с Сайтов<br/>
     <input type="radio" name="sinn" value="Придумывал Идеи на Коленке">Придумывал Идеи на Коленке<br/>
     <input type="radio" name="sinn" value="Молился Аллаху 4 раза вместо 5">Молился Аллаху 4 раза вместо 5<br/>
     <input type="radio" name="sinn" value="Дизайнил Шаблонами">Дизайнил Шаблонами<br/>
     <input type="radio" name="sinn" value="Придумывал Грехи">Придумывал Грехи<br/>
     <input type="radio" name="sinn" value="Создал не Приличный Ссылки на Сайты">Создал не Приличный Ссылки на Сайты
-    </label>    
+    <p>Не удивляйся что грех выбран заранее, все мы ни без греха!</p>
+    Почему по твоему мнению ты не виновен: <br/>
+    <input type="checkbox" name="guilty" value="Пажалуста хватит!">Пажалуста хватит!<br/>
+    <input type="checkbox" name="guilty1" value="Я ни виновин!">Я ни виновин!<br/>
+    <input type="checkbox" name="guilty2" value="Во что я вляпался?">Во что я вляпался?<br/>
+    <input type="checkbox" name="guilty3" value="Дай автору Бог здоровья!">Дай автору Бог здоровья!<br/>
+    <input type="checkbox" name="guilty4" value="Хех, мда.">Хех, мда.<br/>
+    <input type="checkbox" name="guilty5" value="Мда, хех, ну чтож">Мда, хех, ну чтож.<br/>
+    <input type="checkbox" name="guilty6" value="Идеи закончились.">Идеи закончились.<br/>
+    <p>Что бы твои грехи были отпущены (возможно), укажи обязательно свои данные:</p>
+    <label for="name">Имя</label><br/>
+  <input type="text" name="name" id="name" placeholder="Имя Грешника" required><br>
+  <label for="email">Адресс проживания в интернете</label><br/>
+  <input type="email" name="email" id="email" placeholder="Адресс грешника" required><br>
+  <input type="submit" value="Отправить данные">
 </form>
+
     </section>
 
 
