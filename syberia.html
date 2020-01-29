@@ -5,6 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
 </head>
 <body>
     <header>
@@ -15,30 +32,41 @@
     <section>
         <table>
             <tr>
-                <td>1</td>
-                <td>2</td>
-                <td>3</td>
-                <td>4</td>
+                <th>Грешники</th>
+                <th>Дни до прощения</th>
+                <th>Серъезность греха</th>
+                <th>Тип Исправительных Работ</th>
             </tr>
             <tr>
-                <td>1</td>
-                <td>2</td>
-                <td>3</td>
-                <td>4</td>
+                <td>Павел</td>
+                <td>666</td>
+                <td>Максимальная</td>
+                <td>Строитель Магистрали</td>
             </tr>
             <tr>
-                <td>1</td>
-                <td>2</td>
-                <td>3</td>
-                <td>4</td>
+                <td>Не Павел</td>
+                <td>666</td>
+                <td>Максимальная</td>
+                <td>Строитель Магистрали</td>
             </tr>
             <tr>
-                <td>1</td>
-                <td>2</td>
-                <td>3</td>
-                <td>4</td>
+                <td>Инокентий</td>
+                <td>666</td>
+                <td>Максимальная</td>
+                <td>Строитель Магистрали</td>
             </tr>
         </table>
+      <form>
+      <label> Выьери себе грех:
+    <input type="radio" name="sinn" value="Подглядывал в Чужой Код">Подглядывал в Чужой Код<br/>
+    <input type="radio" name="sinn" value="Копипастил Стили с Сайтов">Копипастил Стили с Сайтов<br/>
+    <input type="radio" name="sinn" value="Придумывал Идеи на Коленке">Придумывал Идеи на Коленке<br/>
+    <input type="radio" name="sinn" value="Молился Аллаху 4 раза вместо 5">Молился Аллаху 4 раза вместо 5<br/>
+    <input type="radio" name="sinn" value="Дизайнил Шаблонами">Дизайнил Шаблонами<br/>
+    <input type="radio" name="sinn" value="Придумывал Грехи">Придумывал Грехи<br/>
+    <input type="radio" name="sinn" value="Создал не Приличный Ссылки на Сайты">Создал не Приличный Ссылки на Сайты
+    </label>    
+</form>
     </section>
 
 
